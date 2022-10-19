@@ -23,8 +23,7 @@ function validUserName() {
   const test = regex.test(username.value);
   if (!test) {
     message.style.display = 'block';
-    message.style.color = 'orange';
-    message.innerHTML = 'Minimo 3-10 caracteres sem números';
+    message.innerHTML = 'Minimum 3 to 10 characters without numbers';
     form.childNodes[1].setAttribute('class', 'sign-up error');
   } else {
     message.style.display = 'none';
@@ -38,8 +37,7 @@ function lastNameValid() {
   const test = regex.test(lastName.value);
   if (!test) {
     message.style.display = 'block';
-    message.style.color = 'orange';
-    message.innerHTML = 'Minimo 3-10 caracteres sem números';
+    message.innerHTML = 'Minimum 3 to 10 characters without numbers';
     form.childNodes[3].setAttribute('class', 'sign-up error');
   } else {
     message.style.display = 'none';
@@ -54,8 +52,7 @@ function emailValid() {
   const test = regex.test(email.value);
   if (!test) {
     message.style.display = 'block';
-    message.style.color = 'orange';
-    message.innerHTML = 'Email Inválido';
+    message.innerHTML = 'Invalid Email';
     form.childNodes[5].setAttribute('class', 'sign-up error');
   } else {
     message.style.display = 'none';
@@ -70,8 +67,7 @@ function passwordValid() {
 
   if (!passwordTest) {
     message.style.display = 'block';
-    message.style.color = 'orange';
-    message.innerHTML = 'A senha deve conter no mínimo 7 caracteres';
+    message.innerHTML = 'The password must contain 7 or more characters';
     form.childNodes[7].setAttribute('class', 'sign-up error');
   } else {
     message.style.display = 'none';

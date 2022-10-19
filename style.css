@@ -98,6 +98,7 @@ body {
 }
 .sign-up small {
   display: none;
+  color: red;
 }
 
 button {
