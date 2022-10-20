@@ -1,6 +1,6 @@
 
 <h1 align="center">
-My other JavaScript Mentor Challenge
+Sign up Form Mentor Challenge
 </h1>
 <div align=center>
 
